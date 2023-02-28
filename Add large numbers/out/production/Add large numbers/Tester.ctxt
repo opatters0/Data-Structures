@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tester
+comment1.params=
+comment1.target=void\ main()
+comment2.params=s1\ s2
+comment2.target=void\ addLargeNumbers(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Adds\ large\ numbers\r\n\ @Author\ Owen\ Patterson\r\n\ @param\ s1\ a\ string\ representing\ an\ integer.\r\n\ @param\ s2\ a\ string\ representing\ an\ integer.\r\n\ @return\ StackInterface<Integer>\ The\ combined\ sum.\r\n\r\n\ This\ code\ is\ 23\ lines\ long\ and\ fits\ on\ my\ monitor.\r\n\ 1.\ Initializes\ three\ LinkedStacks,\ one\ for\ s1,\ one\ for\ s2,\ and\ one\ for\ the\ result\ of\ the\ addition.\r\n\ 2.\ Iterates\ through\ each\ character\ in\ the\ strings,\ casting\ to\ integer,\ and\ pushes\ it\ onto\ the\ stack.\r\n\ 3.\ Iterates\ while\ at\ least\ one\ of\ the\ stacks\ is\ empty.\r\n\ 3a.\ Pops\ off\ the\ top\ of\ any\ \!empty\ stack\ to\ avoid\ underflow\r\n\ 3b.\ Adds\ the\ result\ along\ with\ any\ carry.\r\n\ 3c.\ Gets\ tens\ and\ ones\ place\ values,\ pushing\ ones\ place\ and\ storing\ tens\ place\r\n\ 4.\ Adds\ any\ carry\ left\ after\ the\ loop.\r\n\ 5.\ Initializes\ a\ char\ array\ based\ on\ the\ length\ of\ the\ sum.\r\n\ 6.\ Iterates\ through\ the\ resultStack\ contents\ storing\ in\ the\ charArray\r\n\ 7.\ Prints\ array.\r\n
+numComments=3
